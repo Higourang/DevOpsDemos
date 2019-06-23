@@ -20,14 +20,14 @@ docker pull ubuntu:16.04
 
 4. create a custom tag to docker image
 ```sh
-docker tag ubuntu:latest gourang/ubuntu:demo
+docker tag ubuntu:latest dockergourang/ubuntu:demo
 ```
 
 5. login to your docker hub registry 
 ``sh
 docker login
 ```
-6. docker push gourang/ubuntu:demo
+6. docker push dockergourang/ubuntu:demo
 ```
 
 ### testing 
@@ -39,6 +39,6 @@ docker image rm -f <Image_id>
 
 2. Pull your custom image from your docker account
 ```sh
-docker pull gourang/ubuntu:demo
+docker pull dockergourang/ubuntu:demo
 ```
 
