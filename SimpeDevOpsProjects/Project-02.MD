@@ -18,7 +18,7 @@ Enable connection between Ansible and Jenkins
 
 	- SSH Servers:
 		- Hostname:`<ServerIP>`
-		- username: `ansadm`
+		- username: `DevOps`
 		- password: `*******`
 		
 Test the connection "Test Connection"
@@ -45,7 +45,7 @@ echo "<server_IP>" >> /etc/ansible/hosts
 Create *Jenkins job*, Fill the following details,
 
    - *Source Code Management:*
-      - Repository: `https://github.com/ValaxyTech/hello-world.git`
+      - Repository : https://github.com/Higourang/hello-world.git
       - Branches to build : `*/master`  
    - *Build:*
      - Root POM:`pom.xml`
