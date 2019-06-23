@@ -1,1 +1,1 @@
-# DevOpsDemos
+# DevOps Demo Projects
