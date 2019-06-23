@@ -47,8 +47,8 @@ To Get Authentication code follow below steps.
 Create a job to test SonarQube. Provide below sonar properties details in the job under build 
 - Build:
   - `Execute SonarQube Scanner` > `Analysis properties`  (it is mandatary).  
-     - sonar.projectKey=`Valaxy`
-     - sonar.projectName=`ValaxyDemo`
+     - sonar.projectKey=`DevOps`
+     - sonar.projectName=`DevOpsDemo`
      - sonar.projectVersion=`1.0`
      - sonar.sources=`/var/lib/jenkins/workspace/$JOB_NAME/<PROJECT_NAME>/src`
 
